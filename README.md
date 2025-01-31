@@ -18,6 +18,16 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 
 - <b>Windows 11</b> (21H2)
 
+<h2> Key Skills & Technologies</h2>
+
+- <b>Azure: Utilized Azure Free Tier to create and manage a Windows Virtual Machine (VM) and configure cloud-based security operations.</b>
+- <b>Threat Monitoring: Configured alerts and monitoring for RDP (Remote Desktop Protocol) activity to detect unauthorized access attempts.</b>
+- <b>Incident Response: Set up custom security alerts to automatically notify upon successful unauthorized login attempts, helping to simulate real-world cyberattack scenarios.</b>
+- <b>Windows Security: Gained experience with event log collection, analysis, and management from a Windows VM using Azure Monitor Agent.</b>
+- <b>Automation: Automated incident creation and alerting based on event detection, optimizing security monitoring workflows.</b>
+- <b>Threat Intelligence: Integrated threat intelligence feeds to simulate and monitor indicators of compromise (IOCs) in a controlled environment.</b>
+
+
 <h2>Lab walk-through:</h2>
 
 <p align="center">
