@@ -32,7 +32,7 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 
 <p align="center">
  Create an Azure Virtual Machine (VM): <br/>
-<img src="screenshot1.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Screenshot1.png" alt="Azure Virtual Machine Setup" width="800">
 
 <br />
 <br />
