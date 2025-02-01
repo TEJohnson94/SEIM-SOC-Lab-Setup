@@ -32,7 +32,8 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 
 <p align="center">
  Create an Azure Virtual Machine (VM): <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="screenshot1.png" alt="Azure Virtual Machine Setup" width="800">
+
 <br />
 <br />
 Select the disk:  <br/>
