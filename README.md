@@ -32,6 +32,26 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 
 <p align="center">
  Create an Azure Virtual Machine (VM): <br/>
+<ul>
+  <li>Go to <strong>Azure Portal</strong> and search for <strong>Virtual Machines</strong></li>
+  <li>Click <strong>Create > Virtual Machine</strong></li>
+  <li>Select <strong>Windows Pro</strong> as the OS</li>
+  <li>Configure the following:
+    <ul>
+      <li><strong>Resource Group:</strong> Create a new one (e.g., <em>Mad Hat Group</em>)</li>
+      <li><strong>Virtual Machine Name:</strong> (e.g., <em>MadHat-VM</em>)</li>
+      <li><strong>Region:</strong> Select the preferred Azure region</li>
+      <li><strong>Administrator Username:</strong> e.g., <em>madhathimself</em></li>
+      <li><strong>Password:</strong> Secure password of your choice</li>
+    </ul>
+  </li>
+  <li><strong>Allow RDP (Port 3389) Access</strong></li>
+  <li>Click <strong>Review and Create</strong></li>
+  <li>Wait for the VM to be deployed</li>
+</ul>
+
+
+
 <img src="Screenshot1.png" alt="Azure Virtual Machine Setup" width="800">
 
 <br />
