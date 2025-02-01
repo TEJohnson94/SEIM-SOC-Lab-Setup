@@ -31,7 +31,7 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+ Create an Azure Virtual Machine (VM): <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
