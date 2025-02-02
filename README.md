@@ -135,7 +135,11 @@ Create an Alert Rule in Sentinel:  <br/>
 </ul>
 
 
-<img src="images/screenshot1.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Rule1.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Rule2.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Rule3.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Rule4.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Rule5.png" alt="Azure Virtual Machine Setup" width="800">
 
 <br />
 <br />
