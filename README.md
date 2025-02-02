@@ -162,13 +162,20 @@ Testing and Monitoring:  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Conclusion:  <br/>
+<p>
+  This project significantly expanded my security knowledge and provided invaluable real-world technical experience in deploying and managing a Security Information and Event Management (SIEM) system. By successfully configuring Microsoft Sentinel, I gained hands-on expertise in ingesting data from various sources and analyzing security events in a live cloud environment.  
 </p>
+
+<p>
+  Throughout this process, I effectively tracked and triggered over <strong>60 successful logins</strong> and monitored more than <strong>800,000 login attempts</strong>, reinforcing my ability to detect and analyze potential security threats. Implementing data connectors, configuring detection rules, and setting up alert triggers honed my skills in security event correlation, log analysis, and threat detection.  
+</p>
+
+<p>
+  Additionally, this experience enhanced my proficiency in <strong>Azure security tools, Log Analytics, Kusto Query Language (KQL), and incident response</strong>. This project not only deepened my understanding of cloud-based threat monitoring but also showcased my ability to build and optimize an enterprise-grade security monitoring solution. Moving forward, I plan to further enhance my SIEM capabilities by integrating advanced threat intelligence feeds and automating incident responses.  
+</p>
+
+
 
 <!--
  ```diff
