@@ -84,7 +84,7 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 </ul>
 
 
- <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="LogAnalytics.png" alt="Azure Virtual Machine Setup" width="800">
 <br />
 <br />
 Enter the number of passes: <br/>
