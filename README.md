@@ -31,7 +31,7 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 <h2>Lab walk-through:</h2>
 
 <p align="center">
- Create an Azure Virtual Machine (VM): <br/>
+ Create an Azure Virtual Machine: (VM): <br/>
 <ul>
   <li>Go to <strong>Azure Portal</strong> and search for <strong>Virtual Machines</strong></li>
   <li>Click <strong>Create > Virtual Machine</strong></li>
@@ -56,8 +56,35 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
 
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Deploy Microsoft Sentinel:  <br/>
+
+<ul>
+  <li><strong>Create a Log Analytics Workspace</strong>
+    <ul>
+      <li>Search for <strong>Log Analytics Workspaces</strong> in the Azure portal</li>
+      <li>Click <strong>Create</strong></li>
+      <li>Set the following configurations:
+        <ul>
+          <li><strong>Resource Group:</strong> Select previously created group</li>
+          <li><strong>Region:</strong> Same as VM region</li>
+          <li><strong>Workspace Name:</strong> e.g., <em>MadHatWorkspace</em></li>
+        </ul>
+      </li>
+      <li>Click <strong>Review + Create</strong> and wait for deployment</li>
+    </ul>
+  </li>
+  <li><strong>Set Up Microsoft Sentinel</strong>
+    <ul>
+      <li>Search for <strong>Microsoft Sentinel</strong> in the Azure portal</li>
+      <li>Click <strong>Create</strong></li>
+      <li>Select the <strong>Log Analytics Workspace</strong> created earlier</li>
+      <li>Click <strong>Add Microsoft Sentinel</strong></li>
+    </ul>
+  </li>
+</ul>
+
+
+ <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
