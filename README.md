@@ -143,7 +143,22 @@ Create an Alert Rule in Sentinel:  <br/>
 
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Testing and Monitoring:  <br/>
+<ul>
+  <li><strong>Simulate an RDP Attack</strong>
+    <ul>
+      <li>Leave the RDP port (3389) open and wait for brute-force attempts</li>
+      <li>View incoming login attempts in <strong>Sentinel > Incidents</strong></li>
+    </ul>
+  </li>
+  <li><strong>Verify Incident Creation</strong>
+    <ul>
+      <li>Check if <strong>alerts</strong> appear in <strong>Microsoft Sentinel</strong></li>
+      <li>Validate that successful logins trigger security incidents</li>
+    </ul>
+  </li>
+</ul>
+
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
