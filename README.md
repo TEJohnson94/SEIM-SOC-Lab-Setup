@@ -159,7 +159,9 @@ Testing and Monitoring:  <br/>
   </li>
 </ul>
 
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Alerts1.png" alt="Azure Virtual Machine Setup" width="800">
+<img src="Alerts2.png" alt="Azure Virtual Machine Setup" width="800">
+
 <br />
 <br />
 Conclusion:  <br/>
