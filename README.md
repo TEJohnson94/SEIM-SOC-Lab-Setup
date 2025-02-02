@@ -118,8 +118,25 @@ Connect the VM to Sentinel: <br/>
 <img src="DataConnector.png" alt="Azure Virtual Machine Setup" width="800">
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create an Alert Rule in Sentinel:  <br/>
+<ul>
+  <li>Go to <strong>Sentinel > Logs</strong></li>
+  <li>Click <strong>Create > New Rule</strong></li>
+  <li>Configure:
+    <ul>
+      <li><strong>Rule Name:</strong> e.g., <em>Successful RDP Login</em></li>
+      <li><strong>Severity:</strong> Set to <em>High</em></li>
+      <li><strong>Rule Frequency:</strong> Every 5 minutes</li>
+      <li><strong>Query:</strong> (Detects successful RDP logins)</li>
+      <li><strong>Enable Incident Creation</strong></li>
+    </ul>
+  </li>
+  <li>Click <strong>Review + Create</strong></li>
+</ul>
+
+
+<img src="images/screenshot1.png" alt="Azure Virtual Machine Setup" width="800">
+
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
