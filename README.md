@@ -115,7 +115,7 @@ Connect the VM to Sentinel: <br/>
   </li>
 </ul>
 
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="DataConnector.png" alt="Azure Virtual Machine Setup" width="800">
 <br />
 <br />
 Confirm your selection:  <br/>
