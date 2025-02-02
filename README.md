@@ -87,7 +87,34 @@ In this hands-on project, I built and deployed a personal Security Operations Ce
  <img src="LogAnalytics.png" alt="Azure Virtual Machine Setup" width="800">
 <br />
 <br />
-Enter the number of passes: <br/>
+Connect the VM to Sentinel: <br/>
+
+<ul>
+  <li><strong>Install the Azure Monitor Agent (AMA)</strong>
+    <ul>
+      <li>Go to <strong>Sentinel > Content Hub</strong></li>
+      <li>Search for <strong>Azure Monitor Agent</strong></li>
+      <li>Click <strong>Install</strong></li>
+    </ul>
+  </li>
+  <li><strong>Set Up Data Connectors</strong>
+    <ul>
+      <li>Go to <strong>Sentinel > Data Connectors</strong></li>
+      <li>Select <strong>Windows Security Events</strong></li>
+      <li>Click <strong>Open Connector Page</strong></li>
+      <li>Click <strong>Create Data Collection Rule</strong></li>
+      <li>Configure:
+        <ul>
+          <li><strong>Rule Name:</strong> e.g., <em>Windows Events to Sentinel</em></li>
+          <li><strong>Resources:</strong> Select <em>MadHat-VM</em></li>
+          <li><strong>Events to Collect:</strong> Select <strong>All Security Events</strong></li>
+        </ul>
+      </li>
+      <li>Click <strong>Create</strong></li>
+    </ul>
+  </li>
+</ul>
+
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
